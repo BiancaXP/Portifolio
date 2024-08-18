@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="img/Icone.jpg">
+    <title>Bianca Xavier | Portifólio</title>
+</head>
+<body class="body">
+  <header class="cabecalho">
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button >
+      <ul id="menu" role="menu" >
+        <li><a href="#home" class="menu__opcoes-item menu-item">Sobre mim</a></li>
+        <li><a href="#projetos" class="menu__opcoes-item menu-item">Projetos</a></li>
+        <li><a href="#contato" class="menu__opcoes-item menu-item">Contato</a></li>
+      </ul>
+    </nav>
+    <div> 
+      <h1 class="cabecalho-logo">Bianca Xavier</h1>
+    </div>
+  </header>
+  <main>
+    <section class="home" id="home">
+      <div class="home-conteudo">
+        <h2 class="home-titulo">Sobre mim</h2>
+        <p class="home-texto">Olá, sou Bianca Xavier, estudante de Análise e Desenvolvimento de Sistemas e apaixonada por tecnologia. Atualmente, estou em busca de novos desafios e oportunidades para desenvolver minhas habilidades e conhecimentos.</p>
+        <p class="home-texto">Olá, sou Bianca Xavier, estudante de Análise e Desenvolvimento de Sistemas e apaixonada por tecnologia. Atualmente, estou em busca de novos desafios e oportunidades para desenvolver minhas habilidades e conhecimentos.</p>
+        <div class="home-conjunto-botao">
+          <a href="https://www.linkedin.com/in/biancax/" class="home-botao">Linkedin</a>
+          <a href="https://https://github.com/BiancaXP" class="home-botao">Github</a>
+          <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=5531993925255&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA" target="_blank" class="whatsapp-botao">
+              <img src="/img/Whatsapp.png" alt="Whatsapp" class="Whatsapp-imagem">
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="/img/Foto_Home.png" alt="Foto de Bianca" class="home-foto">
+    </section>
+    <section class="habilidades">
+      <h1 class="habilidades-titulo">Habilidades</h1>
+      <div class="habilidades-icones">
+        <img class="habilidades-tec" src="./img/logo figma.png" alt="">
+        <img class="habilidades-tec" src="./img/logo html.png" alt="">
+        <img class="habilidades-tec" src="./img/logo javascript.svg" alt="">
+        <img class="habilidades-tec" src="./img/logo css.webp" alt="">
+      </div>
+    </section>
+    <section class="projetos" id="projetos">
+      <h1 class="projetos-titulo">Projetos</h1>
+      <div class="projetos-container" id="produto">
+        <div class="projetos-card">
+          <div class="projeto-conteudo">
+            <h3 class="projetos-card-titulo">Site Digidata</h3>
+            <p class="projetos-card-descricao">Meu primeiro site desenvolvido apenas para portifólio, com intuito de colocar em pratica meus conhecimentos e aprendizado.</p>
+            <a href="https://biancaxp.github.io/Site-Digidata/" class="projetos-card-botao">ver projeto</a>
+          </div>
+          <img src="/img/card-digidata.png" alt="Imagem do logo Digidata" class="projetos-card-imagem">
+        </div>
+        <div class="projetos-card">
+          <div class="projeto-conteudo">
+            <h3 class="projetos-card-titulo">Tela de Login</h3>
+            <p class="projetos-card-descricao">Desenvolvida apenas para portifólio, com intuito de colocar em pratica meus conhecimentos e aprendizado.</p>
+            <a href="https://biancaxp.github.io/Tela-login-Money-Time/" class="projetos-card-botao">ver projeto</a>
+          </div>
+          <img src="/img/card-money.png" alt="Imagem do logo Money Time" class="projetos-card-imagem">
+        </div>
+        <div class="projetos-card">
+          <div class="projeto-conteudo">
+            <h3 class="projetos-card-titulo">Página de Captura</h3>
+            <p class="projetos-card-descricao">Esse projeto é um clone de uma página de captura de captura. Feito em html e css. </p>
+            <a href="https://biancaxp.github.io/PaginaCaptura_Luar/" class="projetos-card-botao">ver projeto</a>
+          </div>
+          <img src="/img/card-luar.png" alt="Imagem do logo Luar" class="projetos-card-imagem">
+        </div>
+    <section class="contato" id="contato">
+      <h1 class="contato-titulo">Contato</h1>
+      <form action="https://api.staticforms.xyz/submit" method="post" class="contato-form">
+        <label for="nomesobrenome" class="contato-label">Nome completo</label>
+        <input type="text" id="nomesobrenome" name="name" class="contato-input" required>
+    
+        <label for="email" class="contato-label">Email</label>
+        <input type="email" id="email" name="email" class="contato-input" required placeholder="seuemail@dominio.com">
+    
+        <label for="telefone" class="contato_label">Telefone/Whatsapp</label>
+        <input type="tel" id="telefone" name="phone" class="contato-input" required placeholder="(00) 00000-0000">
+    
+        <label for="mensagem" class="contato-label">Mensagem</label>
+        <textarea cols="70" rows="10" id="mensagem" name="message" class="contato-input" required></textarea>
+    
+        <input type="submit" value="Enviar formulário" class="contato-botao">
+    
+        <input type="hidden" name="accessKey" value="7c0cddd1-eac4-46d8-8cb7-fb3af6f575fa">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+    </form>
+    </section>
+    <section class="cookies-msg" id="cookies-msg">
+      <P class="cookies-texto">Este site usa cookies e tecnologias afins, que são pequenos arquivos ou pedaços de textos baixados para um aparelho quando o visitante acessa um website ou aplicativo. Ao utilizar nosso site você está de acordo com a utilização dos cookies para te proporcionar uma melhor experiência.</P>
+      <div>
+        <button onclick="aceito()" class="cookies-botao">Aceitar</button>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">
+    <p class="rodape-texto">Feito com ❤️ por Bianca Xavier</p>
+  </footer>
+
+  <script src="./script.js"></script>  
+  <script src="./cookies.js"></script>    
+</body>
+</html>
