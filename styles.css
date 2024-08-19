@@ -165,7 +165,7 @@ header {
 .projetos-card{
   display: flex;
   background-color: var(--cor-bg);
-  width: 90%;
+  width: 70%;
   border: #312b2a solid 1px;
   margin-bottom: 40px;
 }
