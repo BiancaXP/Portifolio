@@ -19,7 +19,7 @@ header {
 .body {
     font-family: var(--fonte-titulo);
     background-color: var(--cor-bg);
-    background-image: url('img/bg.png');
+    background-image: url('img/BG.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
