@@ -76,8 +76,8 @@ header {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    width: 85%;
-    padding: 10% ;
+    width: 100%;
+    padding: 20% ;
     margin-top: 30px;
 }
 
